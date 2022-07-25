@@ -203,6 +203,9 @@
  :favorites ["dashboard" "初中物理知识" "How to take dummy notes?"]
  :graph/settings {:journal? false, :builtin-pages? true}
  :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 0}, :parentheses {:counts 0}, :command {:counts 1}, :calendar {:counts 0}, :paint {:counts 2}, :list {:counts 5}, :link {:counts 0}, :strikethrough {:counts 1}, :code {:counts 0}, :camera {:counts 1}, :rotate {:counts 0}, :tag {:counts 4}, :brackets {:counts 47}, :italic {:counts 2}, :a-b {:counts 1}, :rotate-clockwise {:counts 0}}
+ :feature/enable-journals? false
+ :default-home {:page "初中物理知识"}
+ :publishing/all-pages-public? true
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
